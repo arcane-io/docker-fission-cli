@@ -1,4 +1,4 @@
-FROM arcaneio/kubectl
+FROM arcaneio/kubectl:gcloud-sdk
 
 RUN apk add --update --no-cache \
             bash-completion \
