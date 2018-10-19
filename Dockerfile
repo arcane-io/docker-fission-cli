@@ -7,7 +7,6 @@ RUN apk add --update --no-cache \
             tar \
             wget
 
-ENV PATH $PATH:/google-cloud-sdk/bin
 ENV FISSION_VERSION "0.11.0"
 
 RUN curl -Lo fission https://github.com/fission/fission/releases/download/${FISSION_VERSION}/fission-cli-linux && chmod +x fission && mv fission /usr/local/bin/
