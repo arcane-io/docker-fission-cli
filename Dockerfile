@@ -1,4 +1,4 @@
-FROM arcaneio/kubectl
+FROM arcaneio/kubectl:azure-cli
 
 RUN apk add --update --no-cache \
             bash-completion \
